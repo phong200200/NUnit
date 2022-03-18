@@ -10,6 +10,20 @@ namespace TestProject2
     [TestFixture]
     public class Tests
     {
+
+        //[Test]
+        //public void checkDetails()
+        //{
+        //    Program program = new Program();
+        //    list = program.AllUsers();
+        //    foreach (var _theVar in list)
+        //    {
+        //        Assert.IsNotNull(_theVar.Id);
+        //        Assert.IsNotNull(_theVar.Name);
+        //        Assert.IsNotNull(_theVar.salary);
+        //        Assert.IsNotNull(_theVar.Geneder); 
+        //    }
+        //}
         List<Employee> list;
 
         [Test]
@@ -39,11 +53,12 @@ namespace TestProject2
                 Assert.IsNotNull(_theVar.Id);
                 Assert.IsNotNull(_theVar.Name);
                 Assert.IsNotNull(_theVar.salary);
-                Assert.IsNotNull(_theVar.Geneder); 
+                Assert.IsNotNull(_theVar.Geneder);
             }
         }
-
         
+
+
 
         [Test]
         public void getUser()
@@ -57,6 +72,17 @@ namespace TestProject2
                 Assert.AreEqual(_theVar.Geneder, "male");
             }
         }
-        
+        //public void getUser()
+        //{
+        //    Program program = new Program();
+        //    var p = program.GetEmployees(104);
+        //    foreach (var _theVar in p)
+        //    {
+        //        Assert.AreEqual(_theVar.Name, "Dsize");
+        //        Assert.AreEqual(_theVar.Id, 104);
+        //        Assert.AreEqual(_theVar.Geneder, "male");
+        //    }
+        //}
+
     }
 }
