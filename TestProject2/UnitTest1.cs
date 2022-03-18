@@ -13,6 +13,23 @@ namespace TestProject2
         List<Employee> list;
 
         [Test]
+        public void LoginTest()
+        {
+            Program program = new Program();
+            string case2 = program.Login("", "");
+            string case3 = program.Login("Admin", "Admin");
+
+            string case1 = program.Login("User", "Password");
+
+            Assert.AreEqual("Incorrect UserId or Password.", case1);
+
+            Assert.AreEqual("Userid or password could not be Empty.", case2);
+            Assert.AreEqual("Welcome Admin.", case3);
+
+
+
+        }
+        [Test]
         public void checkDetails()
         {
             Program program = new Program();
@@ -26,17 +43,7 @@ namespace TestProject2
             }
         }
 
-        [Test]
-        public void LoginTest()
-        {
-            Program program = new Program();
-            string case1 = program.Login("User", "Password");
-            string case2 = program.Login("", "");
-            string case3 = program.Login("Admin", "Admin");
-            Assert.AreEqual("Userid or password could not be Empty.", case2);
-            Assert.AreEqual("Incorrect UserId or Password.", case1);
-            Assert.AreEqual("Welcome Admin.", case3);
-        }
+        
 
         [Test]
         public void getUser()
@@ -50,11 +57,6 @@ namespace TestProject2
                 Assert.AreEqual(x.Geneder, "male");
             }
         }
-        //[Test]
-        //public void getUserDetails()
-        //{
-            
-        //}
         
     }
 }
