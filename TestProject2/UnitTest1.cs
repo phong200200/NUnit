@@ -34,12 +34,12 @@ namespace TestProject2
         {
             Program program = new Program();
             list = program.AllUsers();
-            foreach (var x in list)
+            foreach (var _theVar in list)
             {
-                Assert.IsNotNull(x.Id); 
-                Assert.IsNotNull(x.Name); 
-                Assert.IsNotNull(x.salary); 
-                Assert.IsNotNull(x.Geneder); 
+                Assert.IsNotNull(_theVar.Id);
+                Assert.IsNotNull(_theVar.Name);
+                Assert.IsNotNull(_theVar.salary);
+                Assert.IsNotNull(_theVar.Geneder); 
             }
         }
 
@@ -50,11 +50,11 @@ namespace TestProject2
         {
             Program program = new Program();
             var p = program.GetEmployees(104);
-            foreach (var x in p)
+            foreach (var _theVar in p)
             {
-                Assert.AreEqual(x.Id, 104);
-                Assert.AreEqual(x.Name, "Dsize");
-                Assert.AreEqual(x.Geneder, "male");
+                Assert.AreEqual(_theVar.Name, "Dsize");
+                Assert.AreEqual(_theVar.Id, 104);
+                Assert.AreEqual(_theVar.Geneder, "male");
             }
         }
         
