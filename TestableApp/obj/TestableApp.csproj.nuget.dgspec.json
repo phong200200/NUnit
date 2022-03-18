@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Phong\\source\\repos\\TestableApp\\TestableApp\\TestableApp.csproj": {}
+    "E:\\Learning\\Else\\New folder\\NUnit\\TestableApp\\TestableApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Phong\\source\\repos\\TestableApp\\TestableApp\\TestableApp.csproj": {
+    "E:\\Learning\\Else\\New folder\\NUnit\\TestableApp\\TestableApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Phong\\source\\repos\\TestableApp\\TestableApp\\TestableApp.csproj",
+        "projectUniqueName": "E:\\Learning\\Else\\New folder\\NUnit\\TestableApp\\TestableApp.csproj",
         "projectName": "TestableApp",
-        "projectPath": "C:\\Users\\Phong\\source\\repos\\TestableApp\\TestableApp\\TestableApp.csproj",
-        "packagesPath": "C:\\Users\\Phong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Phong\\source\\repos\\TestableApp\\TestableApp\\obj\\",
+        "projectPath": "E:\\Learning\\Else\\New folder\\NUnit\\TestableApp\\TestableApp.csproj",
+        "packagesPath": "C:\\Users\\quocp\\.nuget\\packages\\",
+        "outputPath": "E:\\Learning\\Else\\New folder\\NUnit\\TestableApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Phong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\quocp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }

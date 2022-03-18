@@ -37,17 +37,24 @@ namespace TestProject2
             Assert.AreEqual("Incorrect UserId or Password.", case1);
             Assert.AreEqual("Welcome Admin.", case3);
         }
+
         [Test]
-        public void getUserDetails()
+        public void getUser()
         {
             Program program = new Program();
             var p = program.GetEmployees(104);
-            foreach(var x in p)
+            foreach (var x in p)
             {
                 Assert.AreEqual(x.Id, 104);
                 Assert.AreEqual(x.Name, "Dsize");
                 Assert.AreEqual(x.Geneder, "male");
             }
         }
+        //[Test]
+        //public void getUserDetails()
+        //{
+            
+        //}
+        
     }
 }

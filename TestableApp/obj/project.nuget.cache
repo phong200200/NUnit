@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bW0IQW0QQzbgtC6bUNsnJPc8ellpVWP/HSDItk8lAsPxgMWiWdAUVAKM//td429H/ZsLunkXR7SKpNPNdwnNEA==",
+  "dgSpecHash": "n4xXnarQdVcO+HF1qAmA2abK4O8LDFC+90Y6sHAJ9wS6U5Q72PhSPnnEuJpEvO+FnwBfb27Gy3qFJpY3kgIiVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Phong\\source\\repos\\TestableApp\\TestableApp\\TestableApp.csproj",
+  "projectFilePath": "E:\\Learning\\Else\\New folder\\NUnit\\TestableApp\\TestableApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Phong\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Phong\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\Phong\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
-    "C:\\Users\\Phong\\.nuget\\packages\\nunit3testadapter\\4.0.0\\nunit3testadapter.4.0.0.nupkg.sha512"
+    "C:\\Users\\quocp\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\quocp\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\quocp\\.nuget\\packages\\nunit\\3.13.2\\nunit.3.13.2.nupkg.sha512",
+    "C:\\Users\\quocp\\.nuget\\packages\\nunit3testadapter\\4.0.0\\nunit3testadapter.4.0.0.nupkg.sha512"
   ],
   "logs": []
 }
