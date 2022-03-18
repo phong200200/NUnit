@@ -29,6 +29,19 @@ namespace TestProject2
 
 
         }
+        //[Test]
+        //public void checkDetails()
+        //{
+        //    Program program = new Program();
+        //    list = program.AllUsers();
+        //    foreach (var _theVar in list)
+        //    {
+        //        Assert.IsNotNull(_theVar.Id);
+        //        Assert.IsNotNull(_theVar.Name);
+        //        Assert.IsNotNull(_theVar.salary);
+        //        Assert.IsNotNull(_theVar.Geneder); 
+        //    }
+        //}
         [Test]
         public void checkDetails()
         {
@@ -39,11 +52,10 @@ namespace TestProject2
                 Assert.IsNotNull(_theVar.Id);
                 Assert.IsNotNull(_theVar.Name);
                 Assert.IsNotNull(_theVar.salary);
-                Assert.IsNotNull(_theVar.Geneder); 
+                Assert.IsNotNull(_theVar.Geneder);
             }
         }
 
-        
 
         [Test]
         public void getUser()
